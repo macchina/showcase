@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+$black: #364149;
+$orange: #ff6600;
+$blue: #274287;
+$light-blue: #b3e2fc;
+$gray: #bdcadb;
+$white: #fff;
+
+.site-header {
+    border: {
+        top: solid 5px $orange;
+      }
+    background: $blue;
+}
+
+.site-title, .site-title:visited, .site-title:hover {
+    background: url(logo.svg) center left no-repeat;
+    background-size: contain;
+    width: 179px;
+    text-shadow: none;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: $white;
+}
