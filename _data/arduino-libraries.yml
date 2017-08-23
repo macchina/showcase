@@ -1,0 +1,23 @@
+- name: Arduino_Due_SD_HSCMI
+  url: https://github.com/macchina/Arduino_Due_SD_HSMCI
+  description: Gives access to HSMCI (High Speed MultiMedia Card Interface) on M2.
+- name: LIN
+  url: https://github.com/macchina/LIN
+  description: LIN bus functionality for M2 on 2 channels
+- name: SamNonDuePin
+  url: https://github.com/macchina/SamNonDuePin
+  description: Gives M2 access to "non-Due" pins.
+- name: SW_CAN
+  url: https://github.com/macchina/Single-Wire-CAN
+  description: Single-wire CAN (GMLAN) give M2 single-wire CAN functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending SW CAN message.
+- name: ArduinoDUE_OBD_FreeRunningCAN
+  description: Free-running CAN and OBDII data acquisition
+- name: OBD9141
+  url: https://github.com/iwanders/OBD9141
+  description: A class to read an ISO 9141-2 port found in OBD-II ports.
+- name: due_can
+  url: https://github.com/collin80/due_can
+  description: Object oriented canbus library for Arduino Due compatible boards
+- name: due_wire
+  url: https://github.com/collin80/due_wire
+  description: An alternative I2C library for Due with DMA support
