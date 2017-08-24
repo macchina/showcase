@@ -1,3 +1,6 @@
 - name: M2RET
   url: https://github.com/collin80/M2RET
   description: Reverse Engineering Tool running on Macchina M2 Hardware
+- name: SavvyCAN
+  url: https://github.com/collin80/SavvyCAN
+  description: QT-based cross platform CANbus tool.  May be used with data collected via the Macchina M2 interface board.
