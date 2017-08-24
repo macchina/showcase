@@ -11,6 +11,7 @@
   url: https://github.com/macchina/Single-Wire-CAN
   description: Single-wire CAN (GMLAN) give M2 single-wire CAN functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending SW CAN message.
 - name: ArduinoDUE_OBD_FreeRunningCAN
+  url: https://github.com/macchina/ArduinoDUE_OBD_FreeRunningCAN
   description: Free-running CAN and OBDII data acquisition
 - name: OBD9141
   url: https://github.com/iwanders/OBD9141
