@@ -16,7 +16,7 @@
 title: Macchina Community Showcase
 email: 
 description: A showcase of Macchina-related libraries, projects, and initiatives.  Discover things you can use or be inspired to create something new!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/showcase" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: macchina
