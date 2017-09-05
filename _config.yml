@@ -21,6 +21,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: macchina
 repository: macchina/showcase
+google_analytics: UA-75126303-1
 
 # Build settings
 markdown: kramdown
