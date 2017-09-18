@@ -25,8 +25,10 @@ $brand-color: $orange;
     }
 }
 
-.trigger {
-    color: $text-color;
+@media screen and (max-width: 600px) {
+    .site-nav {
+        color: $text-color;
+    }
 }
 
 .site-nav .page-link {
