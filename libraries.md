@@ -1,5 +1,6 @@
 ---
 title: Libraries
+edit_path: _data/arduino-libraries.yml
 ---
 
 <!-- to add a library add it in _data/arduino-libraries.yml -->

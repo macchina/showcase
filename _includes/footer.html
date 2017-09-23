@@ -1,0 +1,38 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+          <li>
+            {% if page.edit_path %}
+              {% assign path = page.edit_path %}
+            {% else %}
+              {% assign path = page.path %}
+            {% endif %}
+            <a href="https://github.com/macchina/showcase/edit/master/{{path}}"><span class="icon icon--github">{% include icon-github.svg %}</span><span>Edit this page on GitHub</span></a>
+          </li>
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+        </ul>
+
+        <p>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
