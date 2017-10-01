@@ -10,9 +10,9 @@
   url: https://github.com/macchina/SamNonDuePin
   description: Gives M2 access to "non-Due" pins.
 
-- name: SW_CAN
-  url: https://github.com/macchina/Single-Wire-CAN
-  description: Single-wire CAN (GMLAN) give M2 single-wire CAN functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending SW CAN message.
+- name: Single-Wire CAN (MCP2515)
+  url: https://github.com/macchina/Single-Wire-CAN-mcp2515/blob/master/library.properties
+  description: Gives M2 single-wire CAN (GMLAN) functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending a SW CAN message.
 
 - name: ArduinoDUE_OBD_FreeRunningCAN
   url: https://github.com/macchina/ArduinoDUE_OBD_FreeRunningCAN
