@@ -1,5 +1,5 @@
-- name: Arduino_Due_SD_HSCMI
-  url: https://github.com/macchina/Arduino_Due_SD_HSMCI
+- name: M2_SD_HSCMI
+  url: https://github.com/macchina/M2_SD_HSMCI
   description: Gives access to HSMCI (High Speed MultiMedia Card Interface) on M2.
 
 - name: LIN
