@@ -6,10 +6,6 @@
   url: https://github.com/macchina/LIN
   description: LIN bus functionality for M2 on 2 channels
 
-- name: SamNonDuePin
-  url: https://github.com/macchina/SamNonDuePin
-  description: Gives M2 access to "non-Due" pins.
-
 - name: Single-Wire CAN (MCP2515)
   url: https://github.com/macchina/Single-Wire-CAN-mcp2515
   description: Gives M2 single-wire CAN (GMLAN) functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending a SW CAN message.
