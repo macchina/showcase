@@ -11,7 +11,7 @@
   description: Gives M2 single-wire CAN (GMLAN) functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending a SW CAN message.
 
 - name: ArduinoDUE_OBD_FreeRunningCAN
-  url: https://github.com/macchina/ArduinoDUE_OBD_FreeRunningCAN
+  url: https://github.com/togglebit/ArduinoDUE_OBD_FreeRunningCAN
   description: Free-running CAN and OBDII data acquisition
 
 - name: OBD9141
