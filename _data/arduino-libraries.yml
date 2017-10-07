@@ -29,3 +29,7 @@
 - name: M2_12VIO
   url: https://github.com/TDoust/M2_12VIO
   description: Provides 6x12V output drivers with over current protection for the output drivers and 6x12V analogue input circuits, plus support for the DUE on chip temperature.
+
+- name: extEEPROM
+  url: https://github.com/JChristensen/extEEPROM
+  description: Can be used to program the M2's EEPROM
