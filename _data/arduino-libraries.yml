@@ -33,3 +33,7 @@
 - name: extEEPROM
   url: https://github.com/JChristensen/extEEPROM
   description: Can be used to program the M2's EEPROM
+
+- name: J1850 VPW
+  url: https://github.com/redheadedrod/j1850
+  description: J1850 VPW protocol for M2
