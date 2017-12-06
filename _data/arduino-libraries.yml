@@ -1,39 +1,49 @@
 - name: M2_SD_HSCMI
   url: https://github.com/macchina/M2_SD_HSMCI
   description: Gives access to HSMCI (High Speed MultiMedia Card Interface) on M2.
+  license: MIT
 
 - name: LIN
   url: https://github.com/macchina/LIN
   description: LIN bus functionality for M2 on 2 channels
+  license: MIT
 
 - name: Single-Wire CAN (MCP2515)
   url: https://github.com/macchina/Single-Wire-CAN-mcp2515
   description: Gives M2 single-wire CAN (GMLAN) functionality. Uses external MCP2515 transceiver connected to SAM3X via SPI. Library currently includes an example of sending a SW CAN message.
+  license: MIT
 
 - name: ArduinoDUE_OBD_FreeRunningCAN
   url: https://github.com/togglebit/ArduinoDUE_OBD_FreeRunningCAN
   description: Free-running CAN and OBDII data acquisition
+  license: LGPL-2.1
 
 - name: OBD9141
   url: https://github.com/iwanders/OBD9141
   description: A class to read an ISO 9141-2 port found in OBD-II ports.
+  license: MIT
 
 - name: due_can
   url: https://github.com/collin80/due_can
   description: Object oriented canbus library for Arduino Due compatible boards
+  license: LGPL-2.1
 
 - name: due_wire
   url: https://github.com/collin80/due_wire
   description: An alternative I2C library for Due with DMA support
+  license: LGPL-2.1
 
 - name: M2_12VIO
   url: https://github.com/TDoust/M2_12VIO
   description: Provides 6x12V output drivers with over current protection for the output drivers and 6x12V analogue input circuits, plus support for the DUE on chip temperature.
+  license: LGPL-3.0
 
 - name: extEEPROM
   url: https://github.com/JChristensen/extEEPROM
   description: Can be used to program the M2's EEPROM
+  license: CC-BY-NC-SA-4.0
 
 - name: J1850 VPW
   url: https://github.com/redheadedrod/j1850
   description: J1850 VPW protocol for M2
+  license: LGPL-3.0
