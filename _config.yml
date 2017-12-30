@@ -13,9 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Macchina Community Showcase
+title: Macchina Showcase
 email: 
-description: A showcase of Macchina-related libraries, projects, and initiatives.  Discover things you can use or be inspired to create something new!
+description: |
+  Macchina-related libraries, projects, and initiatives.
+  Discover things you can use or be inspired to create something new!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
@@ -25,7 +27,7 @@ google_analytics: UA-75126303-1
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: 
 
 plugins:
   - jekyll-readme-index

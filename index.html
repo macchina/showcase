@@ -1,0 +1,124 @@
+---
+permalink: index.html
+redirect_from:
+  - /libraries.html
+  - /projects.html
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title | escape }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link href="{{ '/assets/main.css' | relative_url }}" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{{'/assets/public/favicon.ico' | relative_url}}" />
+
+    <script src="{{ '/assets/modernizr.js' | relative_url }}" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <div class="header">
+        <div class="wrapper" style="min-height: unset">
+        <section class="profile-masthead" id="masthead">
+          <header class="profile-logo">
+            <div class="profile-logo-image">
+              <img alt="{{ site.title | escape }}" src="{{'/assets/logo.svg' | relative_url}}" />
+            </div>
+            <div class="profile-name">
+              <h1>{{ site.title | escape }}</h1>
+            </div>
+          </header>
+          <aside class="profile-summary">
+            <div class="summary-location summary-module">
+              <a href="https://macchina.cc">macchina.cc</a>
+            </div>
+          </aside>
+        </section>
+        </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="profile">
+        
+        <section class="profile-content" id="content">
+          <!-- TODO header? -->
+
+          <div class="profile-description">
+            <p>{{site.description | newline_to_br}}</p>
+          </div>
+
+          <article class="profile-menu" id="menu">
+            <nav class="menu-navigation">
+              <ul class="menu-navigation-list">
+                <li class="menu-navigation-list-item"><a href="#libraries">Libraries</a></li>
+                <li class="menu-navigation-list-item"><a href="#projects">Projects</a></li>
+              </ul>
+            </nav>
+
+            <div id="libraries" class="menu-category">
+              <h3 class="menu-category-name">Libraries</h3>
+                {% assign libraries = site.data.arduino-libraries | sort: 'name' %}
+                <ol class="menu-category-list">
+                {%- for library in libraries -%}    
+                    <li class="menu-item">
+                    <div class="menu-item-info">
+                      <h4 class="menu-item-name">{{library.name}}</h4>
+                      <span class="menu-item-price">
+                        <a href="{{library.url}}" target="_blank">Website</a></span>
+                      <p class="menu-item-description">{{library.description}}</p>
+                    </div>
+                  </li>
+                {% endfor %}
+                </ol>
+            </div>
+
+            <div id="projects" class="menu-category">
+              <h3 class="menu-category-name">Projects</h3>
+                {% assign projects = site.data.projects | sort: 'name' %}
+                <ol class="menu-category-list">
+                {%- for project in projects -%}
+                    <li class="menu-item">
+                    <div class="menu-item-info">
+                      <h4 class="menu-item-name">{{project.name}}</h4>
+                      <span class="menu-item-price">
+                        <a href="{{project.url}}" target="_blank">Website</a></span>
+                      <p class="menu-item-description">{{project.description}}</p>
+                    </div>
+                  </li>
+                {% endfor %}
+                </ol>
+            </div>
+          </article>
+
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <nav class="footer-navigation">
+        <img alt="{{site.title}}" src="{{'/assets/logo.svg' | relative_url}}" width="23px" />
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item"><a href="https://maccina.cc">Macchina, LLC</a></li>
+        </ul>
+        <p class="copyright">CC-BY 4.0</p>
+      </nav>
+    </footer>
+
+    <script type="text/javascript">
+      if(window == window.top) document.body.style.display = "block"; else window.top.location = window.location;
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{site.google_analytics}}']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>
