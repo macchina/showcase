@@ -12,3 +12,8 @@
   url: https://github.com/atlas0fd00m/CanCat
   description: Swiss army knife of Controller Area Networks (CAN) often used in cars and building automation that can run on the Macchina M2
   license: BSD-2-Clause
+
+- name: Open python Performance Data Recorder
+  url: https://github.com/tmkdev/oppdr
+  description: Turn vehicle canbus logs into linked HTML based performance charts.
+  license: Apache License, Version 2.0
